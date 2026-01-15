@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+.w1140 {
+  width: 1140px;
+  margin: auto;
+}
+.margin {
+  margin-left: 50px;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.nev {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  justify-content: space-between;
+}
+.nev-left {
+  margin-top: 5px;
+}
+.nev-right {
+  padding-right: 15px;
+}
+.nev-right ul li ul {
+  background: white;
+  position: relative;
+  top: 58px;
+  display: none;
+  position: relative;
+}
+.nev-right ul li:hover ul {
+  position: absolute;
+  display: block;
+}
+.nev-right ul li ul li a {
+  font-size: 16px !important;
+}
+.nev-left img {
+  margin-top: 10px;
+}
+.nev-icon {
+  padding: 0px 15px;
+}
+.nev-icon i {
+  font-size: 30px;
+}
+.nev-icon li {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 4px;
+}
+.nev-right ul li {
+  padding: 15px;
+}
+.nev-right ul li a {
+  font-size: 20px;
+  color: black;
+}
+.nev-right ul li i {
+  font-size: 18px;
+}
+video {
+  position: relative;
+  z-index: -11;
+}
+.text h2 {
+    width: 100%;
+    height: 67px;
+    background-color: #174f37;
+    color: white;
+    align-content: center;
+    padding-left: 50px;
+    text-transform: capitalize;
+    position: relative;
+    top: -70px;
+}
+.text .download{
+    width: 100%;
+    height: 67px;
+    background-color: #00804A;
+    color: white;
+    align-content: center;
+    padding-left: 50px;
+    text-transform: capitalize;
+    position: relative;
+    top: -70px;
+}
+h1 {
+    width: 45%;
+    font-size: 42px;
+    margin-left: 50px;
+}
+.nevigation {
+  margin-top: 30px;
+}
+.nevigation li {
+    background: none;
+    margin-right: 20px;
+    padding: 6px 30px;
+    border-radius: 50px;
+}
+.nevigation li a {
+  color: gray;
+  font-size: 22px;
+}
+.nevigation li a:hover {
+  color: black;
+}
+.nevigation .empty {
+    background-color: black;
+    margin-right: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.nevigation .empty a {
+  color: white;
+  font-size: 22px;
+}
+hr {
+  margin: 30px;
+}
+.service-sec {
+  margin-top: 30px;
+}
+.service-sec .service-left h3 {
+  font-size: 40px;
+  color: darkslategray;
+}
+.service-sec .service-left {
+  width: 50%;
+}
+.service-right {
+  width: 47%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+.service-right img {
+  border-radius: 100px;
+}
+.service-sec .service-right .service-right-text {
+  margin-top: 10px;
+  line-height: 30px;
+}
+.service-sec .service-right .service-right-text h3 {
+    font-size: 27px;
+    padding-left: 20px;
+}
+.service-sec .service-right .service-right-text li {
+    font-size: 18px;
+    padding-left: 20px;
+}
+.constribution {
+  height: 900px;
+}
+.constribution h1 {
+  width: 70%;
+}
+.constribution .con-det {
+  justify-content: center;
+}
+.constribution .con-det .conbox {
+  width: calc(33.33% - 30px);
+  height: 300px;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.constribution .con-det .conbox p{
+    font-size: 20px;
+    width: 97%;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.constribution .con-det .conbox .context {
+    border: 1px solid darkgreen;
+    padding: 10px;
+    margin: -4px 0px;
+    height: 450px;
+}
+.constribution .con-det .conbox img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.constribution .con-det .conbox .context span {
+  color: green;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.newsroom h1 {
+  margin: 10px 0;
+}
+.newsroom .newsroom-img {
+  justify-content: center;
+}
+.newsroom .newsroom-img img {
+  margin-right: 33px;
+}
+.newsroom .newsroom-text .newsroom-box {
+  margin-right: 50px;
+}
+.newsroom .newsroom-text .newsroom-box h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.newsroom .newsroom-text .newsroom-box li {
+  font-size: 18px;
+  width: 100%;
+  line-height: 23px;
+  margin-top: 10px;
+}
+.newsroom .newsroom-text .newsroom-box span {
+      color: green;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.button {
+  text-align: center;
+  margin: 50px 0px;
+}
+.button a {
+  font-size: 18px;
+  padding: 10px 40px;
+  border: 1px solid black;
+  color: black;
+}
+.button a:hover {
+  color: #00804A;
+}
+footer .grabf ul {
+  margin: 10px 0px;
+  font-size: 20px;
+  font-family: cursive;
+}
+.main {
+  background-color: #eaeff2;
+  padding: 20px 0px;
+}
+.grabf {
+  line-height: 35px;
+}
+.grabf li i {
+  font-size: 20px;
+  margin: 3px;
+}
+footer .grabf li {
+  font-size: 16px;
+  color: darkslategrey;
+  line-height: 22px;
+}
+footer .grabf p {
+  margin: 10px 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.sub {
+  width: 80%;
+  justify-content: end;
+}
+.about {
+  width: calc(16% - 30px);
+  margin-left: 15px;
+}
+.sub .about ul h3 {
+  margin: 10px 0px;
+}
+.sub .about ul li {
+  line-height: 25px;
+}
+.sub .about ul li a {
+   color: darkslategrey;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>help center</title>
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .w1140 {
+    width: 1140px;
+    margin: auto;
+  }
+  .nev {
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .nev .nev-left {
+    width: 40%;
+  }
+  .nev-right {
+    width: 60%;
+    justify-content: flex-end;
+  }
+  .nev-right li {
+    background: green;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .help {
+    margin-top: 30px;
+  }
+  .help .div {
+    width: 33%;
+  }
+  .help .div font {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .help .div li {
+    margin-top: 10px;
+    line-height: 20px;
+    color: slateblue;
+    font-weight: 600;
+    font-size: 18px;
+  }
+.main {
+  background-color: #00B14F;
+  padding: 20px 0px;
+  margin-top: 50px;
+}
+.grabf {
+  line-height: 35px;
+  margin-left: 30px;
+}
+.grabf li i {
+  font-size: 20px;
+  color: white;
+  margin: 3px;
+}
+footer .grabf li {
+  font-size: 16px;
+  color: white;
+  line-height: 25px;
+}
+.sub {
+  width: 80%;
+  justify-content: end;
+  margin: 30px 0px;
+}
+.about {
+  width: calc(16% - 30px);
+  margin-left: 15px;
+}
+.sub .about ul h3 {
+  margin: 10px 0px;
+  color: white;
+}
+.sub .about ul li {
+  line-height: 25px;
+}
+.sub .about ul li a {
+   color: white;
+}
+p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.main ul li i {
+  font-size: 24px;
+  padding: 10px 7px;
+  margin: 20px 0px;
+  color: #00B14F;
+  background-color: whitesmoke;
+  margin: 10px;
+  border-radius: 30px;
+}
+.justify-center {
+  justify-content: center;
+}
+</style>
+<body>
+  <div class="nev w1140 flex">
+    <div class="nev-left">
+    <img src="https://assets.grab.com/wp-content/uploads/media/grab_logo.png" alt="" width="80px" height="30px">
+    </div>
+    <div class="nev-right flex">
+      <li>driver sign-up</li>
+      <li>login</li>
+    </div>
+  </div>
+  <div class="img">
+    <img src="https://help.grab.com/21547667/static/media/hero-grabtaxi.9d580d30.jpg" alt="" width="100%" height="300px">
+  </div>
+  <div class="help w1140 flex">
+    <div class="div">
+      <font color="green">Consumer</font>
+      <li>Driver</li>
+      <li>Merchant</li>
+    </div>
+    <div class="div">
+      <li>Announcements</li>
+      <li>Accident & Safety</li>
+      <li>Lost & Found</li>
+      <li>Transport</li>
+      <li>Food</li>
+      <li>Mart</li>
+      <li>Express</li>
+      <li>Finance</li>
+      <li>Business</li>
+    </div>
+    <div class="div">
+      <li>Account & Profile</li>
+      <li>Gifts & Rewards</li>
+      <li>Subscriptions</li>
+      <li>Challenges</li>
+      <li>Dine Out</li>
+      <li>Chope</li>
+      <li>Partners</li>
+      <li>Feedback & App Issues</li>
+      <li>Experiences</li>
+    </div>
+  </div>
+  <footer class="main">
+      <div class="flex margin">
+        <div class="grabf">
+        <img src="https://help.grab.com/21547667/static/media/grab-logo-white.7965489a.png" alt="" width="80px" height="30px">
+        <li>18 Tampines Industrial Crescent</li>
+        <li>#01-12C Space@Tampines</li>
+        <li>Singapore 528605</li>
+        </div>
+          <div class="sub flex">
+            <div class="about">
+        <ul>
+          <h3>About</h3>
+          <li><a href="">About</a></li>
+          <li><a href="">Brand Story</a></li>
+          <li><a href="">Locations</a></li>
+          <li><a href="">Trust & Safety</a></li>
+          <li><a href="">Newsroom</a></li>
+          <li><a href="">Careers</a></li>
+        </ul>
+            </div>
+            <div class="about">
+        <ul>
+          <h3>Consumer</h3>
+          <li><a href="">What's New</a></li>
+<li><a href="">Transport</a></li>
+<li><a href="">GrabExpress</a></li>
+<li><a href="">GrabFood</a></li>
+<li><a href="">GrabPay</a></li>
+<li><a href="">GrabRewards</a></li>
+<li><a href="">Subscriptions</a></li>
+        </ul>
+            </div>
+            <div class="about">
+        <ul>
+          <h3>Driver</h3>
+          <li><a href="">What's New</a></li>
+          <li><a href="">Transport</a></li>
+          <li><a href="">GrabFood</a></li>
+          <li><a href="">GrabExpress</a></li>
+          <li><a href="">Driver Centre</a></li>
+        </ul>
+            </div>
+            <div class="about">
+        <ul>
+          <h3>Merchant</h3>
+          <li><a href="">What's New
+          <li><a href="">GrabPay</a></li>
+          <li><a href="">GrabFood</a></li>
+        </ul>
+            </div>
+            <div class="about">
+        <ul>
+          <h3>Enterprise</h3>
+          <li><a href="">Grab for Business</a></li>
+          <li><a href="">GrabAds</a></li>
+          <li><a href="">GrabGifts</a></li>
+          <li><a href="">GrabVentures</a></li>
+          <li><a href="">Partnerships</a></li>
+          <li><a href="">Portal</a></li>
+        </ul>
+            </div>
+          </div>
+      </div>
+      <hr>
+      <p>Follow us and keep updated!</p>
+      <ul class="flex justify-center">
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+      </ul>
+    </footer>
+</body>
+</html>
