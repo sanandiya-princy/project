@@ -33,10 +33,9 @@
 }
 .nev-right ul li ul {
   background: white;
-  position: relative;
-  top: 58px;
   display: none;
-  position: relative;
+  position: absolute;
+  padding: 20px 0px;
 }
 .nev-right ul li:hover ul {
   position: absolute;
