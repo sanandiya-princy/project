@@ -49,6 +49,7 @@
 }
 .nev-icon {
   padding: 0px 15px;
+  align-content: center;
 }
 .nev-icon i {
   font-size: 30px;
