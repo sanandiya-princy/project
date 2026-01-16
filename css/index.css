@@ -199,6 +199,10 @@ hr {
   font-weight: 600;
   line-height: 50px;
 }
+.newsroom {
+  width: 95%;
+  margin-left: 50px;
+}
 .newsroom h1 {
   margin: 10px 0;
 }
