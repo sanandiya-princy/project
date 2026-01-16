@@ -74,6 +74,7 @@ video {
   z-index: -11;
 }
 .text h2 {
+    display: none;
     width: 100%;
     height: 67px;
     background-color: #174f37;
