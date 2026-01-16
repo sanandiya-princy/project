@@ -33,7 +33,6 @@
 }
 .nev-right ul li ul {
   background: white;
-  position: relative;
   display: none;
   position: absolute;
   padding: 10px 0px;
